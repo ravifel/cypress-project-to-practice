@@ -50,7 +50,7 @@ describe('Login Tests', () => {
         register_user_page.validate_visualize_user_register_page();
     })
 
-    it.only('Login with Success', () => {
+    it('Login with Success', () => {
         login_page.fill_email_field(email_valid);
         login_page.fill_password_field(password_valid);
         login_page.click_login();
