@@ -1,8 +1,10 @@
 /// <reference types="cypress" />
 
+import { faker } from '@faker-js/faker'
+
 import commum_page from "../support/pages/commum_page";
 import register_user_page from "../support/pages/register_user_page";
-import { faker } from '@faker-js/faker'
+
 
 const name = faker.person.fullName();
 const email_valid = faker.internet.email();
