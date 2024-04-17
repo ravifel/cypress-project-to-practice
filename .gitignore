@@ -4,3 +4,5 @@ node_modules/
 _update-notifier-last-checked
 package-lock.json
 screenshots/
+videos/
+reports/
